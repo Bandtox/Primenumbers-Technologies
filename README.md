@@ -25,11 +25,7 @@ This Python script utilizes Selenium to scrape data from the HPRERA Public Dashb
  
 ### Edge WebDriver Setup
 
-5. **If you haven't already, ensure that the Microsoft Edge WebDriver (`msedgedriver.exe`) is correctly placed in your project directory (`D:\Scrape\msedgedriver.exe` as specified in the script).**
-
-**If the WebDriver isn't compatible with your Edge browser version, you can download the appropriate version from [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) and replace it in your project directory.**
-
-6. **Set WebDriver Path**: Update `webdriver_path` in the script with the path to `msedgedriver.exe`.
+5. **Edge WebDriver Setup**: Ensure the Microsoft Edge WebDriver executable (`msedgedriver.exe`) is correctly placed in the project directory (included). If not compatible, download the compatible version for your Edge browser from [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) and place it in the directory specified by `webdriver_path` in the Python script (for example `D:\Primenumbers-Technologies\msedgedriver.exe` or  `\msedgedriver.exe`).
 
 7. **Run the Script**: Execute the script using Python:
     ```python Scrape.py```
