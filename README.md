@@ -1,6 +1,8 @@
 # Web Scraping with Selenium and Python
 
-This script uses Selenium WebDriver to scrape data from a website and extract project details into a CSV file.
+##Introduction
+
+This Python script utilizes Selenium to scrape data from the HPRERA Public Dashboard. It retrieves details of the first 6 projects under the "Registered Projects" section, including GSTIN No., PAN No., Name, and Permanent Address.
 
 ## Requirements
 
