@@ -14,15 +14,20 @@ This Python script utilizes Selenium to scrape data from the HPRERA Public Dashb
 
 1. **Install Python**: If you haven't already, install Python from [python.org](https://www.python.org/downloads/).
 
-2. **Install Selenium**: Install Selenium using pip:
+2. **Clone the repository**
+   ```bash
+   git clone
+   
+
+4. **Install Selenium**: Install Selenium using pip:
    ```bash
    pip install selenium
  
-4. **Download Edge WebDriver**: Download the Microsoft Edge WebDriver compatible with your Edge browser version from [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/). 
+5. **Download Edge WebDriver**: Download the Microsoft Edge WebDriver compatible with your Edge browser version from [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/). 
 
-5. **Set WebDriver Path**: Update `webdriver_path` in the script with the path to `msedgedriver.exe`.
+6. **Set WebDriver Path**: Update `webdriver_path` in the script with the path to `msedgedriver.exe`.
 
-6. **Run the Script**: Execute the script using Python:
+7. **Run the Script**: Execute the script using Python:
     ```python Scrape.py```
 
 
